@@ -1,10 +1,10 @@
 #ifndef CANVASMAKE_H
 #define CANVASMAKE_H
 
-char **createCanvas(int width, int height);
+char **create_canvas(int width, int height);
 
-void printCanvas(char **canvas, int width, int height);
+void print_canvas(char **canvas, int width, int height);
 
-void freeCanvas(char **canvas, int width, int height);
+void free_canvas(char **canvas, int height);
 
 #endif
